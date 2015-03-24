@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sanjana.salmon_v1demo.AfterCallPrompt_1"
+    android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:maxWidth="300dp"
+            android:width="300dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Immediate Family (Spouse, Parents, Children, Siblings)"
+            android:id="@+id/radioButton"
+            android:layout_marginTop="75dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extended Family"
+            android:layout_below="@+id/radioButton"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colleague/Work Connection"
+            android:layout_below="@+id/radioButton2"
+            android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Romantic Partner/Date"
+            android:layout_below="@+id/radioButton3"
+            android:id="@+id/radioButton4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close Friend"
+            android:layout_below="@+id/radioButton4"
+            android:id="@+id/radioButton5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acquaintance"
+            android:layout_below="@+id/radioButton5"
+            android:id="@+id/radioButton6" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classmate"
+            android:layout_below="@+id/radioButton6"
+            android:id="@+id/radioButton7" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roommate"
+            android:layout_below="@+id/radioButton7"
+            android:id="@+id/radioButton8" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stranger"
+            android:layout_below="@+id/radioButton8"
+            android:id="@+id/radioButton9" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton9"
+            android:id="@+id/radioButton10" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:text="Other"
+                android:layout_below="@+id/radioButton9"
+                android:layout_toRightOf="@+id/radioButton10"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/abc_text_size_small_material" />
+
+</RelativeLayout>
